@@ -1,0 +1,58 @@
+/* selector{
+    propriedad:valor;
+    propriedad2:valor; 
+} */
+
+
+body{
+    background-color: #111313;
+}
+table{
+    border-collapse: collapse;
+    width:100%;
+   
+}
+
+th{
+    background-color: #092424;
+    border-bottom: 1px solid #092424;
+    text-align: left;
+    color: whitesmoke;
+
+}
+/* th,td{
+    /* padding: 8px; */
+
+td{
+    color: rgb(131, 131, 131);
+    /* text-align: left; */
+    /* padding: 10px; */
+    border-bottom: 1px solid #111313;
+}
+/* p{
+    color: whitesmoke;
+    text-size-adjust:;
+    padding: 0px;
+    text-align: left;
+    line-height: 0%;
+} */
+
+tr:hover{
+    background-color: darkslategrey;
+}
+.foto{
+    width: 100px;
+
+}
+.artista{
+    color:grey ;
+    /* padding: 0px; */
+}
+.titulo{
+    font-size: larger;
+    color: whitesmoke;
+    padding: 0px;
+}
+.numero{
+    color: whitesmoke;
+}
