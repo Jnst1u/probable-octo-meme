@@ -1,0 +1,132 @@
+/* NAVBAR + LOGO COMPANIA */
+
+
+
+.img-port{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: none;
+    width: 25%;
+}
+
+.navbar{
+    background-color:#FF2400;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.nav-bar :hover{
+    background-color: aquamarine;
+}
+
+
+
+/*GRID CONTAINER*/
+
+
+
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'main main main main barra'
+    'texto-inferior texto-inferior texto-inferior texto-inferior texto-inferior'
+    'footer footer footer footer footer';
+}
+
+
+
+/*GRID ELEMENTS*/
+
+
+
+.header{
+    grid-area: header;
+    background-color: green;
+}
+
+.barra{
+    grid-area: barra;
+    margin-right: 20px;
+}
+
+.main{
+    grid-area: main;
+    margin-left: 2rem;
+}
+
+.texto-inferior{
+    grid-area: texto-inferior;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.footer{
+    grid-area: footer;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+
+/*FOTOS*/
+
+
+
+.foto1{
+    width: 180px;
+    float: left;
+    padding-right: 15px;
+}
+
+.foto2{
+    width: 10%;
+    float: left;
+    padding-right: 15px;
+}
+
+
+
+/*FOOTER + FLEX CONTAINER*/
+
+
+
+footer{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.texto-izquierdo{
+    width: 30%;
+}
+.texto-derecha{
+    text-align: right;
+    width: 70%;
+}
+
+.flex-container{
+    display: flex;
+    background-color: #03224C;
+
+}
+
+
+
+
+.special{
+    text-align: left;
+
+
+}

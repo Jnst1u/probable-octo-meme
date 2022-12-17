@@ -1,0 +1,187 @@
+                                                                                /*NAV BAR + BODY*/
+
+.header{
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+table{
+    width: 100%;
+}
+
+th{
+    gap: 5rem;
+}
+
+.item1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-left-style: solid;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-align: left;
+}
+
+.nav1{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-left-style: solid;
+    border-right-style: solid;
+    text-decoration: none;
+    color: black;
+    font-size: x-large;
+    text-align: left;
+}
+
+
+                                                                        /*GRID CONTAINER + GRID AREAS*/
+
+.header{
+    grid-area: header;
+    
+}
+
+.main-1{
+    grid-area: main-1;
+
+}
+
+.bar{
+    grid-area: bar;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 'header header header header'
+                            'main-1 main-1 main-1 bar'
+                            'inf inf inf inf';
+}
+.item2{
+    text-align: left;
+    font-size: larger;
+    color: black;
+}
+
+
+.inf{
+    grid-area: inf;
+}
+
+
+
+
+                                                                            /*BACKGROUND IMAGE*/
+
+.backimg1{
+    background-image: url(/img/Colombus_Isle.JPG);
+    position: right bottom;
+    background-repeat: no-repeat;
+    padding: 2rem;
+    background-size: 100% 100%;
+}
+
+.backtext1{
+    font-size: xx-large;
+    text-align: center;
+    padding:10rem;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+                                                                            /*MAIN*/
+.main{
+    background-color:rgb(51, 137, 212);
+    display: grid;
+    padding: 2em;
+}
+@media screen and (min-width:720px){
+    .main{
+        grid-template-columns: min-content min-content min-content min-content;
+    }
+}
+
+                                                                        /*PROFILE CARD*/
+article{
+    border: 1px solid rgb(51, 137, 212);
+}
+
+.img-profile{
+    width: 100%;
+}
+.card{
+    padding: 1em;
+    border-radius: 0.4em;
+    background-color: rgb(27, 67, 102);
+}
+
+.img-container{
+    min-width: 320px;
+    border-radius: 0.4em;
+}
+
+                                                                            /*VUELOS*/
+.container-2{
+    background-color: rgb(51, 137, 212);
+    position: relative;
+}
+
+.img-2{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 1;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle{
+    transition: .5s ease;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+
+.container-2:hover .img-2 {
+    opacity: 0.3;
+  }
+  
+  .container-2:hover .middle {
+    opacity: 1;
+  }
+
+  .text-fly{
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+
+
+                                                                        /*FOOTER*/
+
+footer{
+    margin-top: 3rem;
+    background-color: red;
+}
+
+                                                                        /*VUELOS*/
+
+
+.h2-fly{
+    text-align: center;
+}
+
+

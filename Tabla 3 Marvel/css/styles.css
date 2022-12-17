@@ -1,0 +1,21 @@
+#grid-title{
+    text-align: center;
+    background-color: #CCCCCC;
+    padding-top: 10px;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    border: 1px;
+    background-color: white;
+    gap: 10px;
+}
+#grid-container div{
+    background-color: #CCCCCC;
+}
+.imagen{
+    width: 150px;
+    
+}

@@ -1,0 +1,47 @@
+/*NAVBAR*/
+
+.img-port{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: none;
+    width: 25%;
+}
+
+.navbar{
+    background-color:#FF2400;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-item{
+    border-left-style: solid;
+    border-right-style: solid;
+}
+
+.nav-bar :hover{
+    background-color: aquamarine;
+}
+
+
+/*SECTION*/
+.column_left{
+    border: 5px saddlebrown;
+    width: 150px;
+    height: 150px;
+
+}
+
+.spc{
+    width: 15%;
+    text-align: center;
+}
+
+.card_name{
+    text-align: center;
+}

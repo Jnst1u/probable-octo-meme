@@ -1,0 +1,88 @@
+/* https://www.youtube.com/watch?v=DGuL1DNyqfk&list=PLROIqh_5RZeDbvISffzihyxzqJBt_z3-Z&index=54 */
+body{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightgrey;
+}
+@font-face {
+    font-family: SansThirteenBlack;
+    src: url(/sansthirteenblack/SansThirteenBlack.otf) format(opentype);
+}
+.grid-title{
+    text-align: center;
+    background-color: black;
+    padding-bottom: 0%;
+}
+.img{
+    width: 20%;
+}
+.grid-container{
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+}
+.name-movie{
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+    color: yellow;
+    font-size:x-large;
+}
+.img2{
+    width: 50%;
+}
+
+.text-1{
+    margin-right: 25%;
+    margin-left: 25%;
+    font-size:large;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+
+}
+.title{
+    color: yellow;
+}
+.text{
+    margin-right: 5%;
+    margin-left: 5%;
+    font-size: medium;
+    color:whitesmoke
+}
+.caja{
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-style: solid;
+    background-color: #951C23;
+    border-color: #E7A465;
+    font-size: small;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.separacion{
+    width: 200px;
+}
+.link-2{
+    text-decoration: none;
+    color: white;
+}
+
+.accion{
+    font-family: SansThirteenBlack;
+    font-size: xx-large;
+}
+.img-foot{
+    border-left-style: solid;
+    border-right: white;
+}
+footer{
+font-size: xx-small;
+}
+.link{
+    color: blue;
+}
